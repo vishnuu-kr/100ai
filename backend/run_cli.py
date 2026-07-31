@@ -45,7 +45,7 @@ async def main():
     final_report = await run_company(args.goal)
 
     # Save artifact
-    out_path = Path(args.output-file if hasattr(args, 'output-file') else args.output_file)
+    out_path = Path(args.output_file)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(final_report, encoding="utf-8")
 
