@@ -31,6 +31,8 @@ jobs:
           pip install -r backend/requirements.txt
 
       - name: Run 100-Agent Marketing Intelligence Chain
+        env:
+          TOKENROUTER_KEYS: ${{ secrets.TOKENROUTER_KEYS }}
         run: |
           mkdir -p output
           python backend/run_cli.py \

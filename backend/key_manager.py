@@ -68,9 +68,24 @@ class KeyManager:
         self._load_keys()
 
     def _load_keys(self):
+        import os
+        keys = []
         path = Path(self.keys_file)
-        content = path.read_text(encoding="utf-8").strip()
-        keys = [k.strip() for k in content.split(",") if k.strip()]
+        if path.exists():
+            try:
+                content = path.read_text(encoding="utf-8").strip()
+                keys = [k.strip() for k in content.split(",") if k.strip()]
+            except Exception as e:
+                print(f"[KeyManager] Could not read file {self.keys_file}: {e}")
+
+        # Fallback to environment variables if file not present or empty (for GitHub Actions / production)
+        if not keys and os.environ.get("TOKENROUTER_KEYS"):
+            raw = os.environ.get("TOKENROUTER_KEYS", "")
+            keys = [k.strip() for k in raw.split(",") if k.strip()]
+        elif not keys and os.environ.get("TOKENROUTER_KEY"):
+            raw = os.environ.get("TOKENROUTER_KEY", "")
+            keys = [k.strip() for k in raw.split(",") if k.strip()]
+
         self.slots = [KeySlot(index=i, key=k) for i, k in enumerate(keys)]
         print(f"[KeyManager] Loaded {len(self.slots)} keys")
 
