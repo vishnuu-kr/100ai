@@ -18,3 +18,8 @@ company.db
 # OS files
 .DS_Store
 Thumbs.db
+
+# Keys & secrets
+*.txt
+*.env
+
