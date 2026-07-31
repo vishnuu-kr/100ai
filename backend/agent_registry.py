@@ -225,10 +225,15 @@ ALL_AGENTS: list[AgentDef] = [
     # ─── TEAM D: CONTENT ENGINE WORKERS (IDs 50–66) ────────────────────────
     _make(50, "Harrison Ford",  "X/Twitter Post & Hook Copywriter",  "Team D: Content Engine",
           "High-CTR single posts, punchy hooks, line breaks",
-          "Write 10 viral X/Twitter single posts for project '{task}'. Craft compelling opening hooks and clear calls-to-action."),
+          "Write 10 viral X/Twitter single posts for project '{task}'. The user has 10+ Twitter accounts — write posts for DIFFERENT angles so different accounts each feel authentic. "
+          "Format: TWEET [N] | ACCOUNT TYPE [main/alt/niche] | ANGLE [hot-take/educational/story/question] | TEXT [under 280 chars] | HASHTAGS | BEST TIME (EST). "
+          "Craft compelling opening hooks based on REAL trending topics. Include 2 posts that are reply-bait questions (they generate engagement)."),
     _make(51, "Iris West",      "Viral X Thread Strategist",         "Team D: Content Engine",
           "Structured 7-10 tweet educational threads",
-          "Write 2 high-value X threads for project '{task}'. Structure with strong intro hook, actionable steps, visual cues, and CTA."),
+          "Write 2 complete viral X/Twitter threads (8 tweets each) for project '{task}'. "
+          "Thread 1: Educational — teaches something genuinely useful, product revealed at the end naturally. "
+          "Thread 2: Hot take / controversial opinion — sparks debate and retweets. "
+          "Each tweet must be under 280 chars, numbered [1/8], [2/8] etc. End each thread with a CTA + product link."),
     _make(52, "Jason Bourne",   "LinkedIn Thought Leadership Writer","Team D: Content Engine",
           "B2B LinkedIn posts, story-driven professional copy",
           "Write 5 story-driven LinkedIn posts for project '{task}'. Focus on industry insights, framework breakdowns, and founder lessons."),
@@ -244,12 +249,23 @@ ALL_AGENTS: list[AgentDef] = [
     _make(56, "Nathan Drake",   "Email Campaign & Drip Writer",      "Team D: Content Engine",
           "5-email welcome and nurture drip sequence",
           "Write a 5-email nurture sequence for project '{task}'. Include high open-rate subject lines, engaging body copy, and CTAs."),
-    _make(57, "Olivia Dunham",  "Tech Meme & Viral Content Creator", "Team D: Content Engine",
-          "Relatable developer/marketer memes and humor concepts",
-          "Design 5 tech meme concepts for project '{task}'. Provide image description, top text, bottom text, and target joke."),
-    _make(58, "Peter Parker",   "Product Launch Announcement Writer","Team D: Content Engine",
-          "Product Hunt launch copy, press announcement",
-          "Write the official launch announcement copy for project '{task}'. Cover problem statement, key features, demo link, and founder note."),
+    _make(57, "Olivia Dunham",  "Reddit Community Content Specialist", "Team D: Content Engine",
+          "Native Reddit posts for 4 account rotation, subreddit-specific tone",
+          "Write 8 complete Reddit posts for project '{task}' — 2 posts per account slot (4 accounts). "
+          "Each post MUST be community-native, story-driven, NOT promotional. No mention of 'our product' in the title. "
+          "Format each post: ACCOUNT [1-4] | SUBREDDIT | FLAIR | BEST TIME (EST) | TITLE | FULL BODY (200-400 words). "
+          "Target subreddits from: r/SaaS, r/artificial, r/ChatGPT, r/MachineLearning, r/startups, r/Entrepreneur, r/webdev, r/programming, r/technology, r/ProductHunters. "
+          "Anti-ban rule: each account posts to DIFFERENT subreddits, 1-2 days apart. Product link only in comments, not in post body."),
+    _make(58, "Peter Parker",   "Product Hunt Launch Specialist",    "Team D: Content Engine",
+          "Product Hunt full launch pack: tagline, description, first comment, upvote strategy",
+          "Write the complete Product Hunt launch pack for project '{task}':\n"
+          "1. TAGLINE (max 60 chars, benefit-focused, no buzzwords)\n"
+          "2. DESCRIPTION (max 260 chars, what it does + who it's for)\n"
+          "3. TOPICS/TAGS (3-5 relevant PH tags)\n"
+          "4. FIRST COMMENT (founder story, 400 words — paste right after launch goes live, personal + transparent)\n"
+          "5. LAUNCH DAY REDDIT POST for r/ProductHunters (full post body, title, timing)\n"
+          "6. UPVOTE STRATEGY: how to use 4 Reddit accounts + 10 Twitter accounts to drive PH upvotes safely\n"
+          "Best launch day: Tuesday or Wednesday, 12:01 AM PST."),
     _make(59, "Quentin Coldwater","YouTube Scriptwriter",            "Team D: Content Engine",
           "Long-form video scripts, intro hooks, timestamp structure",
           "Write a 5-minute YouTube video script for project '{task}'. Include hook, visual notes, sponsor/CTA placement, and conclusion."),

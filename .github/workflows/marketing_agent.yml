@@ -6,10 +6,11 @@ on:
       goal:
         description: 'Target Website URL or Marketing Goal'
         required: false
-        default: 'Scrape and market this website: https://agenttag.me (Agent Identity Platform)'
+        default: 'Scrape and market this website: https://agenttag.me (Agent Identity Platform). Generate COPY-PASTE READY posts for: 4 Reddit accounts, 10+ Twitter/X accounts, Product Hunt launch pack, LinkedIn, and Hacker News Show HN. Maximize user acquisition.'
   schedule:
-    # Runs automatically every day at 08:00 UTC
-    - cron: '0 8 * * *'
+    # Runs automatically twice a day — morning (08:00 UTC) and evening (20:00 UTC)
+    # Each run generates a fresh copy-paste-ready post pack with new trends
+    - cron: '0 8,20 * * *'
 
 jobs:
   run-marketing-intelligence:
