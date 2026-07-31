@@ -1,0 +1,54 @@
+name: 100-Agent Marketing Intelligence Runner
+
+on:
+  workflow_dispatch:
+    inputs:
+      goal:
+        description: 'Target Website URL or Marketing Goal'
+        required: false
+        default: 'Scrape and market this website: https://agenttag.me (Agent Identity Platform)'
+  schedule:
+    # Runs automatically every day at 08:00 UTC
+    - cron: '0 8 * * *'
+
+jobs:
+  run-marketing-intelligence:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: Run 100-Agent Marketing Intelligence Chain
+        run: |
+          mkdir -p output
+          python backend/run_cli.py \
+            --goal "${{ github.event.inputs.goal || 'Scrape and market this website: https://agenttag.me (Agent Identity Platform)' }}" \
+            --output-file "output/master_marketing_report.md"
+
+      - name: Upload Master Marketing Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-marketing-report
+          path: output/master_marketing_report.md
+
+      - name: Commit and Push Updated Report (Optional)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/master_marketing_report.md || true
+          git commit -m "chore: update 100-agent master marketing report [skip ci]" || exit 0
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
