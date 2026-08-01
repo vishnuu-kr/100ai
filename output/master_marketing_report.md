@@ -7,72 +7,65 @@
 
 ## Trend Report
 
-**X/Twitter Trend Specialist (Elena Rostova):**
-Let me think carefully about this task. I'm Elena Rostova, X/Twitter Trend Specialist in Team A: Trend Discovery. My job is to analyze X/Twitter trends relevant to AgentTag (https://agenttag.me) — an agent identity & governance platform.
+**Director of Trend Discovery (Marcus Rivera):**
+Let me think carefully about this task. I'm Marcus Rivera, Lead of Team A (Trend Discovery). The target website is https://agenttag.me — "AgentTag - Identity & Governance for AI Agents." It's a control plane giving autonomous agents their own credentials, inbox, phone, cards, and compute governed by cryptographic mandates. Key concepts:
 
-Key product attributes from the profile:
-- AgentTag: Identity & Governance for AI Agents
-- Control plane giving agents credentials, inbox, phone, cards, compute
-- Cryptographic mandates, revocable in one step
-- MCP server with 8 tools, drops into Claude Desktop or any MCP-compatible agent
-- Policy engine, identity layer, tamper-evident ledger
-- "No shared secrets. No loose scripts. One control plane."
-- Targets: AI agent developers, MCP ecosystem, agent security/governance
+- Agent identity / agentic identity management
+- MCP (Model Context Protocol) server — "One MCP server. Eight tools."
+- Policy engine for AI agents
+- Audit trails / tamper-evident ledger
+- Cryptographic mandates / signed mandates
+- Agent credentials (no shared secrets)
+- Governance for autonomous agents touching money/production
+- Claude Desktop integration, MCP-compatible agents
+- Agent payments (cards), agent phone, agent inbox — agent infrastructure primitives
 
-The live search results given are mostly about X scrapers (not directly relevant to trends), HN top stories include the Tailscale/Hugging Face intrusion post (very relevant — agent/security supply chain), and GitHub trending includes a reverse-skill security router pack for Claude Code/Cursor etc. (relevant to MCP/agent tooling security).
+My job: discover trending topics, viral keywords, fast-growing hashtags, hot discussions on X/Twitter, Reddit, HN, Product Hunt, GitHub Trending, Google Trends, YouTube, Indie Hackers, AI news, tech blogs — directly relevant to this product and category. Rank by Growth Rate, Virality Potential, Audience Fit, Time Sensitivity, Competition Level.
 
-I need to produce a dense, actionable X/Twitter trend analysis. I should be honest that I can't literally browse X in real time, but as a specialist I should synthesize known, real trends, hashtags, accounts, viral formats, and discussions in the AI agent identity/security/governance space. I should cite real things where I'm confident: real hashtags (#MCP, #AIAgents, #AgenticAI, #BuildInP
+I have some live search results (mostly irrelevant — Target retail store noise), live HN top stories (one highly relevant: "qm – Multiplayer agent harness for work" with 573pts, 117 comments on GitHub — that's agent infrastructure trending; also "AI doesn't generate working products, that's st
 
 ---
 
 
 ## Competitor Report
 
-**Director of Competitor Intelligence (Priya Sharma):**
-Let me think about this task carefully. I'm Priya Sharma, Director of Competitor Intelligence in Team B. My job is to take Team A's trend report (about MCP security, agent identity, governance trends) and identify ALL competitors ranking for these trends — specifically in the AI agent identity, credentials, governance, MCP security space.
+**Website & Landing Page Tracker (Hannah Abbott):**
+Let me think carefully about this task. I'm Hannah Abbott, Website & Landing Page Tracker in Team B: Competitor Intelligence. My specialty: Competitor homepage changes, value props, UX updates. I need to analyze hero copy changes, CTA shifts, and social proof elements.
 
-AgentTag's positioning:
-- Identity & Governance for AI Agents
-- Control plane giving agents: credentials, inbox, phone, cards, compute
-- Cryptographic mandates, revocable
-- Policy engine, identity layer, tamper-evident ledger
-- MCP server with 8 tools, drops into Claude Desktop / MCP-compatible agents
-- "No shared secrets. No loose scripts. One control plane."
+The target: https://agenttag.me — "AgentTag - Identity & Governance for AI Agents." A control plane giving autonomous agents their own credentials, inbox, phone, cards, and compute governed by cryptographic mandates.
 
-Team A's trend report highlighted:
-1. MCP (Model Context Protocol) explosion — Anthropic Nov 2024, OpenAI adopted March 2025, Google March 2025, Microsoft Build 2025
-2. Security incidents: Invariant Labs tool poisoning attacks (April 2025), rug pull attacks, mcp-remote CVE-2025-6514, Asana MCP incident June 2025, Hugging Face/Tailscale intrusion
-3. Agent2Agent (A2A) protocol from Google April 2025
-4. OpenAI Agents SDK March 2025
-5. MCP security companies: Noma Security, Snyk MCP scans, Cisco AI Defense, Lasso Security, Prompt Security (acquired by SentinelOne)
-6. MCP Registry preview Sept 2025, OAuth 2.1 in MCP spec
+Key positioning elements of AgentTag:
+- Hero: "Give every agent its own identity" (rotating: identity/policy/audit trail)
+- Sub: "The control plane that gives every agent its own credentials and audit trail — governed by signed mandates you control and can revoke in one step."
+- Trust signals: "No shared secrets. · No loose scripts. · One control plane."
+- Pain narrative: "AI delegation didn't get harder. It got stuck." — wrapper scripts collapse once agents touch money or production systems.
 
-Now I need to identify competitors across several categories:
+Team A's trend report identified trend clusters: MCP explosion & MCP security, agent identity/NHI (non-human identity), agentic payments (x402, AP2, ACP), agent infrastructure, governance/compliance (EU AI Act Aug 2026, OWASP agentic).
 
-**Category 1: Agent Identity & Credentials (direct
+My job: track competitor landing pages. I need to identify ALL competitors ranking for these trends and analyze their landing pages: hero copy, CTAs, social proof, messaging, pricing, features, weaknesses, gaps. Produce bat
 
 ---
 
 
 ## Audience Report
 
-**Buying Intent Signal Detector (Yara Shah):**
-Let me think carefully about this task. I'm Yara Shah, Buying Intent Signal Detector in Team C: Audience Research. My specialty is: High-intent search queries, vendor comparison signals.
+**Desired Outcomes & Goals Analyst (Victor Hugo):**
+Let me think carefully about this task. I'm Victor Hugo, Desired Outcomes & Goals Analyst in Team C: Audience Research. My specialty: Customer dream states, productivity goals, ROI desires.
 
-The product is AgentTag (https://agenttag.me) — Identity & Governance for AI Agents:
-- Control plane giving agents credentials, inbox, phone, cards, compute
-- Cryptographic mandates, revocable in one step
-- MCP server with 8 tools, drops into Claude Desktop or any MCP-compatible agent
-- Policy engine, identity layer, tamper-evident ledger
-- "No shared secrets. No loose scripts. One control plane."
+The product: AgentTag (https://agenttag.me) — "Identity & Governance for AI Agents." A control plane giving autonomous agents their own credentials, inbox, phone, cards, and compute governed by cryptographic mandates. Key features:
+- Agent identity / agentic identity management
+- MCP server — "One MCP server. Eight tools."
+- Policy engine for AI agents
+- Audit trails / tamper-evident ledger
+- Cryptographic mandates / signed mandates
+- Agent credentials (no shared secrets)
+- Governance for autonomous agents touching money/production
+- Claude Desktop integration, MCP-compatible agents
+- Agent payments (cards), agent phone, agent inbox
 
-My specific job: Identify buying intent signals — high-intent search queries, vendor comparison signals, and highlight trigger events that cause customers to evaluate software.
+Team A found trends: MCP explosion & MCP security, agent identity/NHI (non-human identity), agentic payments (x402, AP2, ACP), agent infrastructure, governance/compliance (EU AI Act Aug 2026, OWASP agentic). HN story "qm – Multiplayer agent harness for work" 573pts.
 
-The previous teams gave me:
-- Team A: MCP explosion, security incidents (Invariant Labs tool poisoning April 2025, mcp-remote CVE-2025-6514, Asana MCP incident June 2025, Hugging Face/Tailscale intrusion), A2A protocol, OpenAI Agents SDK, MCP Registry preview Sept 2025, OAuth 2.1 in MCP spec
-- Team B: Competitors — Noma Security, Snyk, Cisco AI Defense, Lasso Security, Prompt Security (acquired by SentinelOne), agent identity players
-
-I should NOT repeat their work. I need to build ON TOP with my specialty: the exact search queries people type when they're ready to buy, vendor comparison signals ("X vs Y", "X alternative", "best MCP security tools"), trigger events (security i
+Team B tracked competitor landing pages (truncated, but presumably covers players like: Astrix Security, Oasis Security, Token Security, Silverfort, Cyata, Permit.io, WorkOS, Clerk, Stytch, Scalekit, Composio, Arcade.dev, Pomerium, Teleport, HashiCorp, Skyflow, Anon, Browserbase, Stripe agent tooling, Payman, Nekuda, Sardine, Catena Labs, Circui
 
 ---
 
@@ -80,49 +73,60 @@ I should NOT repeat their work. I need to build ON TOP with my specialty: the ex
 ## Content Report
 
 **Director of Content Engine (Isabelle Moreau):**
-Let me think carefully about this task. I'm Isabelle Moreau, Director of Content Engine in Team D. My job is to create maximum user acquisition content for AgentTag (https://agenttag.me) — an identity & governance platform for AI agents.
+Let me think carefully about this task. I'm Isabelle Moreau, Director of Content Engine in Team D. My specialty is generating X posts, threads, LinkedIn, carousels, blogs, landing pages, emails, memes, videos.
 
-Key product facts:
-- AgentTag: Identity & Governance for AI Agents
-- Control plane giving agents: credentials, inbox, phone, cards, compute
-- Cryptographic mandates, revocable in one step
-- MCP server with 8 tools, drops into Claude Desktop or any MCP-compatible agent
-- Policy engine, identity layer, tamper-evident ledger
-- "No shared secrets. No loose scripts. One control plane."
-- Hero: "Give every agent its own identity / policy / audit trail"
+The product: AgentTag (https://agenttag.me) — "Identity & Governance for AI Agents." A control plane giving autonomous agents their own credentials, inbox, phone, cards, and compute governed by cryptographic mandates.
 
-Context from previous teams:
-- Team A (Trends): MCP explosion (Anthropic Nov 2024, OpenAI adopted March 2025, Google, Microsoft Build 2025), security incidents (Invariant Labs tool poisoning April 2025, rug pull attacks, mcp-remote CVE-2025-6514, Asana MCP incident June 2025, Hugging Face/Tailscale intrusion), Agent2Agent protocol, OpenAI Agents SDK, MCP security companies (Noma, Snyk, Cisco AI Defense, Lasso, Prompt Security acquired by SentinelOne), MCP Registry preview Sept 2025, OAuth 2.1 in MCP spec. Trending hashtags: #MCP, #AIAgents, #AgenticAI, #BuildInPublic
-- Team B (Competitor gaps): Agent identity & credentials category, MCP security companies. Gaps likely include: no one doing "agent inbox/phone/cards" (full agent stack identity), most 
+Key product facts from the scrape:
+- Title: AgentTag - Identity & Governance for AI Agents
+- Hero: "Give every agent its own identity" (rotating: identity/policy/audit trail)
+- Sub: "The control plane that gives every agent its own credentials and audit trail — governed by signed mandates you control and can revoke in one step."
+- Trust signals: "No shared secrets. · No loose scripts. · One control plane."
+- Pain narrative: "AI delegation didn't get harder. It got stuck." — wrapper scripts collapse once agents touch money or production systems.
+- MCP server — "One MCP server. Eight tools."
+- Claude Desktop integration, MCP-compatible agents
+- Agent payments (cards), agent phone, agent inbox, compute
+
+Team A trends (truncated but I have key signals):
+- MCP explosion & MCP security
+- Agent identity / NHI (non-human identity)
+- Agentic payments (x402, AP2, ACP)
+- Agent infrastructure
+- Governance/compliance (EU AI Act Aug 2026, OWASP agentic)
+- HN: "qm – Multiplayer agent harness for work" 573pts — agent inf
 
 ---
 
 
 ## SEO Report
 
-**Director of SEO Strategy (Dr. James Liu):**
-Let me think carefully about this task. I'm Dr. James Liu, Director of SEO Strategy in Team E. My specialty: Low competition keywords, high intent keywords, user questions, SEO briefs.
+**High-Intent Buyer Keyword Specialist (Zara Vance):**
+Let me think carefully about this task. I'm Zara Vance, High-Intent Buyer Keyword Specialist in Team E: SEO. My specialty is commercial and transactional search terms: "vs", "alternative", "best" keywords.
 
-The product is AgentTag (https://agenttag.me):
-- Identity & Governance for AI Agents
-- Control plane giving agents: credentials, inbox, phone, cards, compute
-- Cryptographic mandates, revocable in one step
-- MCP server with 8 tools, drops into Claude Desktop or any MCP-compatible agent
-- Policy engine, identity layer, tamper-evident ledger
-- "No shared secrets. No loose scripts. One control plane."
-- Hero: "Give every agent its own identity / policy / audit trail"
+The product: AgentTag (https://agenttag.me) — "Identity & Governance for AI Agents." A control plane giving autonomous agents their own credentials, inbox, phone, cards, and compute governed by cryptographic mandates.
 
-Context from previous teams:
-- Team A (Trends): MCP explosion (Anthropic Nov 2024, OpenAI adopted March 2025, Google March 2025, Microsoft Build 2025), security incidents (Invariant Labs tool poisoning attacks April 2025, mcp-remote CVE-2025-6514, Asana MCP incident June 2025, Hugging Face/Tailscale intrusion)
-- Team B (Competitors): competitors in AI agent identity, credentials, governance, MCP security space
-- Team C (Audience): high-intent search queries, vendor comparison signals, trigger events
-- Team D (Content): content already created
+Key product facts:
+- Agent identity / agentic identity management
+- MCP server — "One MCP server. Eight tools."
+- Policy engine for AI agents
+- Audit trails / tamper-evident ledger
+- Cryptographic mandates / signed mandates
+- Agent credentials (no shared secrets)
+- Governance for autonomous agents touching money/production
+- Claude Desktop integration, MCP-compatible agents
+- Agent payments (cards), agent phone, agent inbox
 
-My deliverables:
-1. 20 target keywords (mix of high-volume and long-tail, include ranking difficulty)
-2. Topical authority cluster map (1 pillar page + 8 cluster articles)
-3. Meta titles and descriptions for 5 core pages
-4. Internal linking strateg
+The task asks me to:
+1. Identify 10 high-intent buyer keywords (my specific focus)
+2. Then a complete SEO strategy: 20 target keywords with difficulty, topical authority cluster map (1 pillar + 8 clusters), meta titles/descriptions for 5 core pages, internal linking strategy, 3 linkable asset ideas, technical SEO checklist
+
+My unique angle: Focus on 'best [category] software', 'alternative to [competitor]', and '[use case] tools'.
+
+Let me think about the competitive landscape for AgentTag:
+
+**Competitors in adjacent spaces:**
+1. **Non-Human Identity (NHI) management:**
+   - Astrix Se
 
 ---
 
@@ -130,49 +134,29 @@ My deliverables:
 ## Analytics Report
 
 **Director of Analytics & Prediction (Sarah Kim):**
-Let me think carefully about this task. I'm Sarah Kim, Director of Analytics & Prediction in Team F. My specialty is predicting traffic, CTR, shares, engagement, conversions, and content scoring.
+Let me think carefully about this task. I'm Sarah Kim, Director of Analytics & Prediction in Team F. My specialty: predicting traffic, CTR, shares, engagement, conversions, content scoring.
 
-The task: Analyze all content assets created by Team D and predict:
-1. Expected traffic per channel (X, LinkedIn, Reddit, Organic Search, YouTube) per month
-2. Expected signup conversion rates by source
-3. Score every content piece using ICE framework (Impact, Confidence, Ease — 1-10 each)
-4. Estimated time to first 100, 1000, 10000 website visitors
-5. Which single piece of content is most likely to go viral and why
-6. A/B test suggestions for headlines and CTAs
+The product: AgentTag (https://agenttag.me) — Identity & Governance for AI Agents. A control plane giving autonomous agents credentials, inbox, phone, cards, compute governed by cryptographic mandates. MCP server ("One MCP server. Eight tools."). Policy engine, audit trails, signed mandates, no shared secrets. Claude Desktop integration.
 
-The intelligence from previous teams is truncated, but I have enough context:
-- Team A (Trends): MCP explosion (Anthropic Nov 2024, OpenAI adopted March 2025, Google March 2025, Microsoft Build 2025), security incidents (Invariant Labs tool poisoning April 2025, mcp-remote CVE-2025-6514, Asana MCP incident June 2025, Hugging Face/Tailscale intrusion)
-- Team B (Competitors): Competitors in AI agent identity/credentials/governance/MCP security space
-- Team C (Audience): Buying intent signals, high-intent search queries, vendor comparison signals, trigger events
-- Team D (Content): Content assets created for AgentTag
-
-Since Team D's content is truncated, I need to infer what content assets a competent content team would create for AgentTag given the trends. Typical content as
+Context from previous teams (truncated but inferable):
+- Team A (Trends): MCP explosion & MCP security, agent identity/NHI (non-human identity), agentic payments (x402, Coinbase), AI agent incidents/security fears, "agents touching money/production" governance gap. Trending on X, Reddit (r/mcp, r/LocalLLaMA, r/AI_Agents), HN, GitHub trending (MCP servers repos exploding — modelcontextprotocol/servers has 60k+ stars).
+- Team B (Competitors): Competitors in agent identity/governance space — e.g., Composio, Arcade.dev, Auth0 (AI agents auth), Okta, Stytch, WorkOS, Permit.io, Cedar, OPA (Open Policy Agent), Skyflow, Anon.com, Keycard (recently launched agent identity), Descope, Clerk. Landing page analysis.
+- Team C (Audience): ICPs — AI engineers building agents, platform/DevOps leads, security engineers, founders of agent startups, enterprise architects. Dream states: "ship agents to production without ge
 
 ---
 
 
 ## Strategy Report
 
-**Director of Marketing Strategy (Tom Wallace):**
-Let me think carefully about this task. I'm Tom Wallace, Director of Marketing Strategy in Team G: Strategy. My specialty is prioritizing findings, posting times, top platform matching, and highest ROI actions.
+**High-Impact Content Director (Violet Baudelaire):**
+Let me think carefully about this task. I'm Violet Baudelaire, High-Impact Content Director in Team G: Strategy. My specialty: Selecting highest reach and highest conversion content assets.
 
-The situation: I'm synthesizing a final ranked marketing action plan for AgentTag (https://agenttag.me), an identity & governance platform for AI agents. The previous teams' reports were truncated in the prompt, but I have the key facts:
+The task: Recommend the top 3 content pieces to produce TODAY for AgentTag (https://agenttag.me) to maximize signups and viral reach. But the user prompt also includes a broader synthesis request — the FINAL RANKED MARKETING ACTION PLAN with 7 sections. Wait, let me re-read.
 
-**Product facts:**
-- AgentTag: Identity & Governance for AI Agents
-- Control plane giving agents: credentials, inbox, phone, cards, compute
-- Cryptographic mandates, revocable in one step
-- MCP server with 8 tools, drops into Claude Desktop or any MCP-compatible agent
-- Policy engine, identity layer, tamper-evident ledger
-- "No shared secrets. No loose scripts. One control plane."
-- Hero: "Give every agent its own identity / policy / audit trail"
+The user says: "Recommend the top 3 content pieces to produce today for project 'TARGET WEBSITE: https://agenttag.me ... All 6 intelligence teams have delivered their reports. Now synthesize everything into the FINAL RANKED MARKETING ACTION PLAN: 1. TOP 3 ACTIONS TO DO TODAY... 2. DAY 1–7 PLAN... 3. DAY 8–30 PLAN... 4. CHANNEL PRIORITY RANKING... 5. SINGLE HIGHEST-LEVERAGE MOVE... 6. HOW TO RANK ON GOOGLE... 7. RISK FLAGS... Use the analytics predictions from Team F to rank every recommendation by confidence.' to maximize signups and viral reach."
 
-**What I can infer from the truncated team reports:**
-- Team A (Trends): MCP explosion, agent security trends, X/Twitter trends around MCP security, agent identity, governance
-- Team B (Competitors): Competitors in AI agent identity, credentials, governance, MCP security space
-- Team C (Audience): High-intent search queries, vendor comparison signals, trigger events
-- Team D (Content): Content engine for user acquisition
-- Team E (SEO): Low competition keywords, high intent keywords, user questions, SEO briefs
-- Team F (Analytics): Predictio
+So the actual deliverable is the FINAL RANKED MARKETING ACTION PLAN with all 7 sections, but framed through my specialty lens: selecting highest reach and highest conversion content assets. As Team G Strategy's content director, I should deliver the full plan but with emphasis on content asset selection — which content pieces to produce, where to post them, ranked by confidence.
+
+Note: Team F (analytics predictions) is 
 
 ---
